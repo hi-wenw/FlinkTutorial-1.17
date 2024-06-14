@@ -24,8 +24,9 @@ public class ReduceDemo {
                 new WaterSensor("s1", 1L, 1),
                 new WaterSensor("s1", 11L, 11),
                 new WaterSensor("s1", 21L, 21),
-                new WaterSensor("s2", 2L, 2),
-                new WaterSensor("s3", 3L, 3)
+                new WaterSensor("s2", 2L, 4),
+                new WaterSensor("s2", 2L, 6),
+                new WaterSensor("s3", 3L, 5)
         );
 
 
@@ -46,12 +47,22 @@ public class ReduceDemo {
          *     value1： 之前的计算结果，存状态
          *     value2： 现在来的数据
          */
+//        SingleOutputStreamOperator<WaterSensor> reduce = sensorKS.reduce(new ReduceFunction<WaterSensor>() {
+//            @Override
+//            public WaterSensor reduce(WaterSensor value1, WaterSensor value2) throws Exception {
+//                System.out.println("value1=" + value1);
+//                System.out.println("value2=" + value2);
+//                return new WaterSensor(value1.id, value2.ts, value1.vc + value2.vc);
+//            }
+//        });
         SingleOutputStreamOperator<WaterSensor> reduce = sensorKS.reduce(new ReduceFunction<WaterSensor>() {
             @Override
             public WaterSensor reduce(WaterSensor value1, WaterSensor value2) throws Exception {
-                System.out.println("value1=" + value1);
-                System.out.println("value2=" + value2);
-                return new WaterSensor(value1.id, value2.ts, value1.vc + value2.vc);
+                if ("s1".equals(value1.id)) {
+                    return new WaterSensor(value1.getId(), value2.getTs(), value1.getVc() + value2.getVc());
+                } else {
+                    return new WaterSensor("1", 1L, 1);
+                }
             }
         });
 

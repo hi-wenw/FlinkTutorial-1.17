@@ -20,7 +20,7 @@ public class DataGeneratorDemo {
         // 如果有n个并行度， 最大值设为a
         // 将数值 均分成 n份，  a/n ,比如，最大100，并行度2，每个并行度生成50个
         // 其中一个是 0-49，另一个50-99
-        env.setParallelism(2);
+        env.setParallelism(1);
 
         /**
          * 数据生成器Source，四个参数：

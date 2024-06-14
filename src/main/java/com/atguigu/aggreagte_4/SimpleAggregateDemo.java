@@ -21,7 +21,9 @@ public class SimpleAggregateDemo {
 
         DataStreamSource<WaterSensor> sensorDS = env.fromElements(
                 new WaterSensor("s1", 1L, 1),
-                new WaterSensor("s1", 11L, 11),
+                new WaterSensor("s1", 4L, 11),
+                new WaterSensor("s1", 7L, 7),
+                new WaterSensor("s1", 2L, 15),
                 new WaterSensor("s2", 2L, 2),
                 new WaterSensor("s3", 3L, 3)
         );
