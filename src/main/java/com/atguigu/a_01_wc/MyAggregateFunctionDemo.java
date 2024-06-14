@@ -1,4 +1,4 @@
-package com.atguigu.wc_1;
+package com.atguigu.a_01_wc;
 
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;

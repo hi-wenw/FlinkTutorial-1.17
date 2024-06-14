@@ -1,4 +1,4 @@
-package com.atguigu.sink_9;
+package com.atguigu.a_08_sink;
 
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.common.serialization.SimpleStringEncoder;

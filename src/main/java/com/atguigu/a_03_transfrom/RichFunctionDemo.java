@@ -1,4 +1,4 @@
-package com.atguigu.transfrom_3;
+package com.atguigu.a_03_transfrom;
 
 import org.apache.flink.api.common.functions.RichMapFunction;
 import org.apache.flink.configuration.Configuration;

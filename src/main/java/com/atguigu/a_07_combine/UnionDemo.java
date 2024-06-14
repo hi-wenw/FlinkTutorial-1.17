@@ -1,4 +1,4 @@
-package com.atguigu.combine_8;
+package com.atguigu.a_07_combine;
 
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;

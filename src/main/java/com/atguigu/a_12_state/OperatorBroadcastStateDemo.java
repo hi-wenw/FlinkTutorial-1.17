@@ -1,7 +1,7 @@
-package com.atguigu.state_13;
+package com.atguigu.a_12_state;
 
-import com.atguigu.bean.WaterSensor;
-import com.atguigu.functions_5.WaterSensorMapFunction;
+import com.atguigu.a_00_bean.WaterSensor;
+import com.atguigu.functions.WaterSensorMapFunction;
 import org.apache.flink.api.common.state.*;
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.streaming.api.datastream.BroadcastConnectedStream;

@@ -1,7 +1,8 @@
 package com.atguigu.a_03_transfrom;
 
 import com.atguigu.a_00_bean.WaterSensor;
-import com.atguigu.functions.FilterFunctionImpl;
+import com.atguigu.functions.baozi_filter;
+import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
@@ -12,7 +13,7 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
  * @author cjp
  * @version 1.0
  */
-public class FilterDemo {
+public class baozi_FilterDemo {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setParallelism(1);
@@ -32,7 +33,7 @@ public class FilterDemo {
 //            }
 //        });
 
-        SingleOutputStreamOperator<WaterSensor> filter = sensorDS.filter(new FilterFunctionImpl("s1"));
+        SingleOutputStreamOperator<WaterSensor> filter = sensorDS.filter(new baozi_filter(2));
 
 
         filter.print();

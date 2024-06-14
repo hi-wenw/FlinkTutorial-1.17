@@ -1,6 +1,6 @@
-package com.atguigu.sql;
+package com.atguigu.a_14_flink_sql;
 
-import com.atguigu.bean.WaterSensor;
+import com.atguigu.a_00_bean.WaterSensor;
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;

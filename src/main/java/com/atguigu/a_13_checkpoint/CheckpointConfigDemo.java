@@ -1,4 +1,4 @@
-package com.atguigu.checkpoint_14;
+package com.atguigu.a_13_checkpoint;
 
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.api.java.tuple.Tuple2;

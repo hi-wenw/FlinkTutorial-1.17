@@ -1,6 +1,6 @@
-package com.atguigu.aggreagte_4;
+package com.atguigu.a_04_aggreagte;
 
-import com.atguigu.bean.WaterSensor;
+import com.atguigu.a_00_bean.WaterSensor;
 import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.KeyedStream;

@@ -1,4 +1,4 @@
-package com.atguigu.sink_9;
+package com.atguigu.a_08_sink;
 
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;

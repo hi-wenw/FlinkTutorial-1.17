@@ -1,4 +1,4 @@
-package com.atguigu.sql;
+package com.atguigu.a_14_flink_sql;
 
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;

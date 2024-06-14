@@ -1,4 +1,4 @@
-package com.atguigu.watermark_11;
+package com.atguigu.a_10_watermark;
 
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.java.tuple.Tuple2;

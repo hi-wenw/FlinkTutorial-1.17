@@ -18,10 +18,10 @@ target/
 .factorypath
 .project
 .settings
-.springBeans
+.springa_00_beans
 .sts4-cache
 
-### NetBeans ###
+### Neta_00_beans ###
 /nbproject/private/
 /nbbuild/
 /dist/

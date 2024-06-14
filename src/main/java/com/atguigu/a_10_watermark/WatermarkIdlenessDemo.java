@@ -1,6 +1,6 @@
-package com.atguigu.watermark_11;
+package com.atguigu.a_10_watermark;
 
-import com.atguigu.partition_6.MyPartitioner;
+import com.atguigu.a_05_partition.MyPartitioner;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;

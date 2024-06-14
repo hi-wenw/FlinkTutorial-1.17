@@ -1,7 +1,7 @@
-package com.atguigu.process_12;
+package com.atguigu.a_11_process;
 
-import com.atguigu.bean.WaterSensor;
-import com.atguigu.functions_5.WaterSensorMapFunction;
+import com.atguigu.a_00_bean.WaterSensor;
+import com.atguigu.functions.WaterSensorMapFunction;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;

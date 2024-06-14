@@ -1,6 +1,6 @@
-package com.atguigu.functions_5;
+package com.atguigu.functions;
 
-import com.atguigu.bean.WaterSensor;
+import com.atguigu.a_00_bean.WaterSensor;
 import org.apache.flink.api.common.functions.FilterFunction;
 
 /**

@@ -1,4 +1,4 @@
-package com.atguigu.checkpoint_14;
+package com.atguigu.a_13_checkpoint;
 
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;

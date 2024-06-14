@@ -1,4 +1,4 @@
-package com.atguigu.combine_8;
+package com.atguigu.a_07_combine;
 
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;

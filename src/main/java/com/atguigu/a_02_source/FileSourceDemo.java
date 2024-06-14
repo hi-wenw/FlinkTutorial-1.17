@@ -1,4 +1,4 @@
-package com.atguigu.source_2;
+package com.atguigu.a_02_source;
 
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.connector.file.src.FileSource;

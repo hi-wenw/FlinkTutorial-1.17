@@ -1,4 +1,4 @@
-package com.atguigu.partition_6;
+package com.atguigu.a_05_partition;
 
 import org.apache.flink.api.common.functions.Partitioner;
 

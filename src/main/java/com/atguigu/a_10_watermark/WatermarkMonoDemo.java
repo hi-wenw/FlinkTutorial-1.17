@@ -1,7 +1,7 @@
-package com.atguigu.watermark_11;
+package com.atguigu.a_10_watermark;
 
-import com.atguigu.bean.WaterSensor;
-import com.atguigu.functions_5.WaterSensorMapFunction;
+import com.atguigu.a_00_bean.WaterSensor;
+import com.atguigu.functions.WaterSensorMapFunction;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;

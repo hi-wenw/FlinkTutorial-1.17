@@ -1,4 +1,4 @@
-package com.atguigu.source_2;
+package com.atguigu.a_02_source;
 
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;

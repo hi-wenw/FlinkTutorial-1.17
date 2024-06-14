@@ -1,4 +1,4 @@
-package com.atguigu.wc_1;
+package com.atguigu.a_01_wc;
 
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.api.java.functions.KeySelector;

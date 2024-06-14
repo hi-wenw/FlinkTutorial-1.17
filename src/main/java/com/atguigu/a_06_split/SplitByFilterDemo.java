@@ -1,4 +1,4 @@
-package com.atguigu.split_7;
+package com.atguigu.a_06_split;
 
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;

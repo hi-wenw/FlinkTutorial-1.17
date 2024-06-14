@@ -1,4 +1,4 @@
-package com.atguigu.bean;
+package com.atguigu.a_00_bean;
 
 import java.util.Objects;
 
